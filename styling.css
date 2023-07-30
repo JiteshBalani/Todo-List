@@ -9,7 +9,8 @@
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    background: #0D1117;
+    background-color: #000000ed;
+
 }
 
 .todo {
@@ -55,7 +56,7 @@ input {
     font-size: 14px;
 }
 
-button {
+.inputBar button {
     border: none;
     outline: none;
     background: rgb(255, 120, 2);
@@ -127,3 +128,23 @@ ul li span:hover {
     background: rgb(243, 55, 55);
 }
 
+.modeChange {
+    display: flex;
+    margin: 10px 20px 0 0;
+    justify-content: flex-end;
+}
+
+#modeButton {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #000000ed;
+}
+
+.light-mode {
+    background-color: white;
+}
