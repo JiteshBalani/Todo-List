@@ -148,3 +148,7 @@ ul li span:hover {
 .light-mode {
     background-color: white;
 }
+
+.fa-sun {
+    color: #ffbb00;
+}
