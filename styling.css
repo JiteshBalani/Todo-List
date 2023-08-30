@@ -76,7 +76,7 @@ ul li {
     position: relative;
     align-items: center;
     color: white;
-    border-bottom: 1px solid rgb(132, 126, 126);
+    border-top: 1px solid rgb(132, 126, 126);
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -112,20 +112,20 @@ ul li.checked::before{
 
 ul li span {
     padding: 10px auto 10px;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 80px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
     height: 40px;
     top: 5px;
     right: 0;
     position: absolute;
-    color: white;
+    color: rgb(255, 120, 2);
     text-align: center;
     line-height: 40px;
 }
 
 ul li span:hover {
-    background: rgb(243, 55, 55);
+    background: black;
 }
 
 .modeChange {
@@ -137,7 +137,7 @@ ul li span:hover {
 #modeButton {
     width: 50px;
     height: 50px;
-    /*padding: 10px;*/
+    /* padding: 10px; */
     border-radius: 50%;
     font-size: 15px;
     cursor: pointer;
@@ -154,3 +154,4 @@ ul li span:hover {
 .fa-sun {
     color: #ffbb00;
 }
+
