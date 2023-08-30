@@ -135,9 +135,11 @@ ul li span:hover {
 }
 
 #modeButton {
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    /*padding: 10px;*/
+    border-radius: 50%;
+    font-size: 15px;
     cursor: pointer;
 }
 
