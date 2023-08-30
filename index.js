@@ -12,7 +12,7 @@ function addTask(){
         li.innerHTML = input.value;
         tasklist.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "Delete";
+        span.innerHTML = "X";
         li.appendChild(span);
     }
     input.value = '';
