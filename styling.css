@@ -155,3 +155,32 @@ ul li span:hover {
     color: #ffbb00;
 }
 
+/* Mobile Styles */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .todo{
+        margin:0px;
+        padding: 15px;
+    }
+    .todo h2{
+        flex-direction: column-reverse;
+        gap: 5px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .inputBar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: none;
+        border-radius: 10px;
+    }
+
+    button.add{
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    ul li{
+        font-size: 14px;
+    }
+}
+
